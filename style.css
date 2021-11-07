@@ -1,0 +1,979 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lakki+Reddy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+}
+
+/* CSS Reset */
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Layout */
+
+.container {
+    margin: 0 auto;
+}
+
+.Flex {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+}
+
+/* Seta para ir para o topo do site */
+
+#topo {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+/* Smartphone Portrait >>>>>>>>>>>>>>>>>> */
+
+/* CABEÇALHO */
+header {
+    height: 40px;
+}
+
+#logo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 30%;
+}
+
+header h1 {
+    font-family: 'Lakki Reddy', cursive;
+    font-size: 2em;
+    letter-spacing: 0.1em;
+    margin-top: 10px;
+    color: blue;
+}
+
+header h2 {
+    font-size: 1em;
+    color: cornsilk;
+    text-align: center;
+}
+
+#whatsapp {
+    width: 20px;
+}
+
+#check {
+    display: none;
+}
+
+nav label {
+    font-size: 3em;
+    padding-right: 15px;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #343538;
+    height: 100vh;
+    position: fixed;
+    top: 60px;
+    right: -100%;
+    width: 100%;
+    transition: all 0.5s;    
+}
+
+#check:checked ~ ul {
+    right: 0;
+}
+
+nav ul li {
+    padding: 20px;
+    border-bottom: 1px solid #a9a9a9;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* PROFISSIONAIS */
+#profissionais h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* VEICULO */
+#veiculo h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.5em;
+    text-align: center;
+}
+#foto-legenda img {
+    width: 100px;
+    height: 50px;
+}
+
+table#tabelaspec {
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table#tabelaspec td {
+    border: 1px solid #606060;
+    padding: 10px;
+}
+table#tabelaspec td.ce {
+    color: #ffffff;
+    background-color: #606060;
+    vertical-align: top;
+    font-weight: bold;
+}
+table#tabelaspec td.cd {
+    background-color: #cecece;
+}
+table#tabelaspec caption {
+    color: #e61111;
+    font-size: 13;
+    font-weight: bolder;
+}
+table#tabelaspec caption span {
+    display: block;
+    float: right;
+    color: #000000;
+    font-size: 8px;
+    margin-top: 10px;
+}
+
+figure#foto-legenda {
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;    
+}
+figure#foto-legenda img {
+    width: 100%;
+    height: 100%;
+}
+figure#foto-legenda figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 1px;
+    background-color: rgba(97, 17, 17, 0.2);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure#foto-legenda:hover figcaption {
+    opacity: 1;
+}
+
+/* TRAJETOS */
+.caminho {
+    max-width: 100%;
+}
+
+#trajeto h1 {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+figure#piradentro {
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;    
+}
+
+figure#piradentro figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 1px;
+    background-color: rgba(97, 17, 17, 0.2);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure#piradentro:hover figcaption {
+    opacity: 1;
+}
+
+figure#pirario {
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;    
+}
+
+figure#pirario figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 1px;
+    background-color: rgba(97, 17, 17, 0.2);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure#pirario:hover figcaption {
+    opacity: 1;
+}
+
+figure#pirasjose {
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;    
+}
+
+figure#pirasjose figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 1px;
+    background-color: rgba(97, 17, 17, 0.2);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure#pirasjose:hover figcaption {
+    opacity: 1;
+}
+
+/* ESCOLAS */
+.endereco {
+    margin-right: 3em;
+}
+
+#escolas h1 {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#escolas img {
+    max-width: 50%;
+}
+
+/* RODAPE */
+
+footer#rodape {
+    clear: both;
+    text-align: center;
+}
+footer#rodape p {
+    text-align: center;
+    text-indent: unset;
+}
+.icone {
+    margin: 0px auto;
+    padding: 10px;
+    height: 30px;
+}
+.rede {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    -webkit-transition: all .5s ease-in;
+    border-radius: 50px;
+}
+.rede:hover {
+    cursor: pointer;
+    transform: translateY(-20px);
+    box-shadow: 4px 30px 16px 0px rgba(50, 50, 50, 0.45);    
+}
+.rede#facebook {
+    background-color: #2373a3;
+}
+.rede#instagran {
+    background-color: #3f729b;
+}
+.rede#youtube {
+    background-color: #b00;
+}
+
+/* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 576px) {
+    /* Layout */
+    .container {
+        max-width: 540px;
+    }
+
+    /* CABEÇALHO */
+    header {
+        height: 40px;
+    }
+
+    #logo img {
+        width: 80px;
+        height: 80px;
+        border-radius: 30%;
+    }
+
+    header h1 {
+        font-family: 'Lakki Reddy', cursive;
+        font-size: 2em;
+        letter-spacing: 0.1em;
+        margin-top: 10px;
+        color: blue;
+    }
+
+    header h2 {
+        font-size: 1em;
+        color: cornsilk;
+        text-align: center;
+    }
+
+    #whatsapp {
+        width: 20px;
+    }
+
+    #check {
+        display: none;
+    }
+
+    nav label {
+        font-size: 3em;
+        padding-right: 15px;
+    }
+
+    nav ul {
+        list-style: none;
+        background-color: #343538;
+        height: 100vh;
+        position: fixed;
+        top: 60px;
+        right: -100%;
+        width: 100%;
+        transition: all 0.5s;    
+    }
+
+    #check:checked ~ ul {
+        right: 0;
+    }
+
+    nav ul li {
+        padding: 20px;
+        border-bottom: 1px solid #a9a9a9;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+/* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 768px) {
+    /* Layout */
+    .container {
+        max-width: 720px;
+    }
+    /* CABEÇALHO */
+    header {
+        height: 150px;
+    }
+
+    #logo img {
+        width: 160px;
+        height: 160px;
+        border-radius: 30%;
+    }
+
+    header h1 {
+        font-family: 'Lakki Reddy', cursive;
+        font-size: 3em;
+        letter-spacing: 0.1em;
+        margin-top: 10px;
+        color: blue;
+    }
+
+    header h2 {
+        font-size: 2em;
+        color: cornsilk;
+        text-align: center;
+    }
+
+    #whatsapp {
+        width: 40px;
+    }
+
+    #check {
+        display: none;
+    }
+
+    nav label {
+        font-size: 3em;
+        padding-right: 15px;
+    }
+
+    nav ul {
+        list-style: none;
+        background-color: #343538;
+        height: 100vh;
+        position: fixed;
+        top: 60px;
+        right: -100%;
+        width: 100%;
+        transition: all 0.5s;    
+    }
+
+    #check:checked ~ ul {
+        right: 0;
+    }
+
+    nav ul li {
+        padding: 20px;
+        border-bottom: 1px solid #a9a9a9;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    /* PROFISSIONAIS */
+    #profissionais h1 {
+        font-family: 'Permanent Marker', cursive;
+        font-size: 2.5em;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #profissionais p {
+        font-size: 1.5em;
+    }
+
+    /* VEICULO */
+    #veiculo h1 {
+        font-family: 'Permanent Marker', cursive;
+        text-align: center;
+        font-size: 2.5em;
+    }
+
+    table#tabelaspec {
+        border: 1px solid #606060;
+        border-spacing: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    table#tabelaspec td {
+        border: 1px solid #606060;
+        padding: 10px;
+    }
+    table#tabelaspec td.ce {
+        color: #ffffff;
+        background-color: #606060;
+        vertical-align: top;
+        font-weight: bold;
+    }
+    table#tabelaspec td.cd {
+        background-color: #cecece;
+    }
+    table#tabelaspec caption {
+        color: #888888;
+        font-size: 13;
+        font-weight: bolder;
+    }
+    table#tabelaspec caption span {
+        display: block;
+        float: right;
+        color: #000000;
+        font-size: 8px;
+        margin-top: 10px;
+    }
+
+    figure#foto-legenda {
+        position: relative;
+        border: 8px solid white;
+        box-shadow: 1px 1px 4px black;    
+    }
+    figure#foto-legenda img {
+        width: 100%;
+        height: 100%;
+    }
+    figure#foto-legenda figcaption {
+        opacity: 0;
+        position: absolute;
+        top: 1px;
+        background-color: rgba(97, 17, 17, 0.2);
+        color: white;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        transition: opacity 1s;
+    }
+
+    figure#foto-legenda:hover figcaption {
+        opacity: 1;
+    }
+
+    /* TRAJETOS */
+    .caminho {
+        max-width: 100%;
+    }
+
+    #trajeto h1 {
+        font-family: 'Permanent Marker', cursive;
+        text-align: center;
+        font-size: 2.5em;
+    }
+
+    figure#piradentro {
+        text-align: center;
+        font-size: 30px;
+        position: relative;
+        border: 8px solid white;
+        box-shadow: 1px 1px 4px black;    
+    }
+
+    figure#piradentro figcaption {
+        opacity: 0;
+        position: absolute;
+        top: 1px;
+        background-color: rgba(97, 17, 17, 0.2);
+        color: white;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        transition: opacity 1s;
+    }
+    
+    figure#piradentro:hover figcaption {
+        opacity: 1;
+    }
+
+    figure#pirario {
+        text-align: center;
+        font-size: 30px;
+        position: relative;
+        border: 8px solid white;
+        box-shadow: 1px 1px 4px black;    
+    }
+
+    figure#pirario figcaption {
+        opacity: 0;
+        position: absolute;
+        top: 1px;
+        background-color: rgba(97, 17, 17, 0.2);
+        color: white;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        transition: opacity 1s;
+    }
+    
+    figure#pirario:hover figcaption {
+        opacity: 1;
+    }
+
+    figure#pirasjose {
+        text-align: center;
+        font-size: 30px;
+        position: relative;
+        border: 8px solid white;
+        box-shadow: 1px 1px 4px black;    
+    }
+
+    figure#pirasjose figcaption {
+        opacity: 0;
+        position: absolute;
+        top: 1px;
+        background-color: rgba(97, 17, 17, 0.2);
+        color: white;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        transition: opacity 1s;
+    }
+    
+    figure#pirasjose:hover figcaption {
+        opacity: 1;
+    }
+
+    /* ESCOLAS */
+    .endereco {
+        position: absolute;
+        margin-left: 355px;
+        margin-top: 10px;
+        font-size: 15pt;
+    }
+
+    #escolas h1 {
+        font-family: 'Permanent Marker', cursive;
+        text-align: center;
+        font-size: 2.5em;
+    }
+
+    /* RODAPE */
+
+    footer#rodape {
+        clear: both;
+        text-align: center;
+    }
+    footer#rodape p {
+        text-align: center;
+        text-indent: unset;
+    }
+    .icone {
+        margin: 0px auto;
+        padding: 10px;
+        height: 30px;
+    }
+    .rede {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        -webkit-transition: all .5s ease-in;
+        border-radius: 50px;
+    }
+    .rede:hover {
+        cursor: pointer;
+        transform: translateY(-20px);
+        box-shadow: 4px 30px 16px 0px rgba(50, 50, 50, 0.45);    
+    }
+    .rede#facebook {
+        background-color: #2373a3;
+    }
+    .rede#instagran {
+        background-color: #3f729b;
+    }
+    .rede#youtube {
+        background-color: #b00;
+    }
+}
+
+/* Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 992px) {
+    /* Layout */
+    .container {
+        max-width: 960px;
+    }
+
+    /* ESCOLAS */
+    .endereco {
+        position: absolute;
+        margin-left: 355px;
+        margin-top: 10px;
+        font-size: 15pt;
+    }
+
+    #escolas h1 {
+        font-family: 'Permanent Marker', cursive;
+        text-align: center;
+        font-size: 2.5em;
+    }
+}
+/* PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 1200px) {
+    /* LAYOUT */
+    .container {
+        max-width: 1140px;
+    }
+
+    /* CABEÇALHO */
+    header {
+        height: 150px;
+    }
+
+    header h1 {
+        font-family: 'Lakki Reddy', cursive;
+        font-size: 4em;
+        letter-spacing: 0.1em;
+        margin-top: 30px;
+        color: blue;
+    }
+
+    header h2 {
+        font-size: 2em;
+        margin-left: 90px;
+        margin-top: -10px;
+        color: cornsilk;
+    }
+
+    #whatsapp {
+        width: 40px;
+    }
+
+    #logo img {
+        width: 189px;
+        height: 189px;
+        border-radius: 30%;
+        margin-top: 5px;
+        margin-left: 3px;
+    }
+
+    header label {
+        display: none;
+    }
+
+    nav ul {
+        position: static;
+        height: auto;
+        background-color: transparent;
+        margin-top: 150px;
+    }
+
+    nav ul li {
+        float: left;
+        border: 0;
+        padding: 5px;
+    }
+
+    nav ul li a {
+        color: #d4f12f;
+    }
+
+    nav ul li a:hover {
+        color: #c00000;
+    }
+
+    /* PROFISSIONAIS */
+    #profissionais h1 {
+        font-family: 'Permanent Marker', cursive;
+        font-size: 3em;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    #profissionais p {
+        font-size: 2.5em;
+    }
+
+    /* VEICULO */
+    #veiculo h1 {
+        font-family: 'Permanent Marker', cursive;
+        text-align: center;
+        font-size: 3em;
+    }
+
+    table#tabelaspec {
+        border: 1px solid #606060;
+        border-spacing: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    table#tabelaspec td {
+        border: 1px solid #606060;
+        padding: 10px;
+    }
+    table#tabelaspec td.ce {
+        color: #ffffff;
+        background-color: #606060;
+        vertical-align: top;
+        font-weight: bold;
+    }
+    table#tabelaspec td.cd {
+        background-color: #cecece;
+    }
+    table#tabelaspec caption {
+        color: #888888;
+        font-size: 13;
+        font-weight: bolder;
+    }
+    table#tabelaspec caption span {
+        display: block;
+        float: right;
+        color: #000000;
+        font-size: 8px;
+        margin-top: 10px;
+    }
+
+    figure#foto-legenda {
+        position: relative;
+        border: 8px solid white;
+        box-shadow: 1px 1px 4px black;    
+    }
+    figure#foto-legenda img {
+        width: 100%;
+        height: 100%;
+    }
+    figure#foto-legenda figcaption {
+        opacity: 0;
+        position: absolute;
+        top: 1px;
+        background-color: rgba(97, 17, 17, 0.2);
+        color: white;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        transition: opacity 1s;
+    }
+
+    figure#foto-legenda:hover figcaption {
+        opacity: 1;
+    }
+
+    /* TRAJETOS */
+    .caminho {
+        max-width: 100%;
+    }
+
+    #trajeto h1 {
+        font-family: 'Permanent Marker', cursive;
+        text-align: center;
+        font-size: 3em;
+    }
+
+    figure#piradentro {
+        text-align: center;
+        font-size: 30px;
+        position: relative;
+        border: 8px solid white;
+        box-shadow: 1px 1px 4px black;    
+    }
+
+    figure#piradentro figcaption {
+        opacity: 0;
+        position: absolute;
+        top: 1px;
+        background-color: rgba(97, 17, 17, 0.2);
+        color: white;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        transition: opacity 1s;
+    }
+    
+    figure#piradentro:hover figcaption {
+        opacity: 1;
+    }
+
+    figure#pirario {
+        text-align: center;
+        font-size: 30px;
+        position: relative;
+        border: 8px solid white;
+        box-shadow: 1px 1px 4px black;    
+    }
+
+    figure#pirario figcaption {
+        opacity: 0;
+        position: absolute;
+        top: 1px;
+        background-color: rgba(97, 17, 17, 0.2);
+        color: white;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        transition: opacity 1s;
+    }
+    
+    figure#pirario:hover figcaption {
+        opacity: 1;
+    }
+
+    figure#pirasjose {
+        text-align: center;
+        font-size: 30px;
+        position: relative;
+        border: 8px solid white;
+        box-shadow: 1px 1px 4px black;    
+    }
+
+    figure#pirasjose figcaption {
+        opacity: 0;
+        position: absolute;
+        top: 1px;
+        background-color: rgba(97, 17, 17, 0.2);
+        color: white;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        transition: opacity 1s;
+    }
+    
+    figure#pirasjose:hover figcaption {
+        opacity: 1;
+    }
+
+    /* ESCOLAS */
+    .endereco {
+        position: absolute;
+        margin-left: 380px;
+        margin-top: 10px;
+    }
+
+    #escolas h1 {
+        font-family: 'Permanent Marker', cursive;
+        text-align: center;
+        font-size: 3em;
+    }
+
+    
+    /* RODAPE */
+
+    footer#rodape {
+        clear: both;
+        text-align: center;
+    }
+    footer#rodape p {
+        text-align: center;
+        text-indent: unset;
+    }
+    .icone {
+        margin: 0px auto;
+        padding: 10px;
+        height: 30px;
+    }
+    .rede {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        -webkit-transition: all .5s ease-in;
+        border-radius: 50px;
+    }
+    .rede:hover {
+        cursor: pointer;
+        transform: translateY(-20px);
+        box-shadow: 4px 30px 16px 0px rgba(50, 50, 50, 0.45);    
+    }
+    .rede#facebook {
+        background-color: #2373a3;
+    }
+    .rede#instagran {
+        background-color: #3f729b;
+    }
+    .rede#youtube {
+        background-color: #b00;
+    }
+}
