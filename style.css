@@ -95,7 +95,7 @@ nav ul {
 }
 
 #check:checked ~ ul {
-    right: 0;
+    right: 0%;
 }
 
 nav ul li {
