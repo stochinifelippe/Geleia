@@ -30,9 +30,10 @@ body {
 section h1 {
     font-family: var(--fontescolha);
     color: rgb(252, 252, 252);
-    font-size: 5vw;
+    font-size: 8vw;
     text-align: center;
     font-weight: unset;
+    padding-top: 10px;
 }
 
 /* Layout */
@@ -59,7 +60,7 @@ section h1 {
 
 /* CABEÇALHO */
 header {
-    height: 40px;
+    height: 70px;
 }
 #logo img {
     width: 20vw;
@@ -70,13 +71,14 @@ header h1 {
     font-family: 'Lakki Reddy', cursive;
     font-size: 10vw;
     letter-spacing: 0.1em;
-    margin-top: 10px;
+    margin-top: 20px;
     color: rgb(211, 247, 10);
 }
 header h2 {
     font-size: 5vw;
     color: cornsilk;
     text-align: center;
+    margin-top: -10px;
 }
 #whatsapp {
     width: 10vw;
@@ -116,7 +118,7 @@ nav ul li a {
 }
 #profissionais div img {
     width: 30vw;
-    height: 40vh;
+    height: 30vh;
 }
 
 /* VEICULO */
