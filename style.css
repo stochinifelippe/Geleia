@@ -270,10 +270,6 @@ footer#rodape {
     clear: both;
     text-align: center;
 }
-footer#rodape p {
-    text-align: center;
-    text-indent: unset;
-}
 .icone {
     margin: 0px auto;
     padding: 10px;
@@ -295,10 +291,10 @@ footer#rodape p {
     background-color: #2373a3;
 }
 .rede#instagran {
-    background-color: #3f729b;
+    background-color: #b00;
 }
 .rede#youtube {
-    background-color: #b00;
+    background-color: #fff;
 }
 
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
@@ -369,6 +365,38 @@ footer#rodape p {
         width: 30vw;
         height: 50vh;
     }
+    /* RODAPE */
+
+footer#rodape {
+    clear: both;
+    text-align: center;
+}
+.icone {
+    margin: 0px auto;
+    padding: 10px;
+    height: 30px;
+}
+.rede {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    -webkit-transition: all .5s ease-in;
+    border-radius: 50px;
+}
+.rede:hover {
+    cursor: pointer;
+    transform: translateY(-20px);
+    box-shadow: 4px 30px 16px 0px rgba(50, 50, 50, 0.45);    
+}
+.rede#facebook {
+    background-color: #2373a3;
+}
+.rede#instagran {
+    background-color: #b00;
+}
+.rede#youtube {
+    background-color: #fff;
+}
 }
 
 /* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
@@ -395,7 +423,7 @@ footer#rodape p {
         color: blue;
     }
     header h2 {
-        font-size: 2em;
+        font-size: 3em;
         color: cornsilk;
         text-align: center;
     }
@@ -412,7 +440,7 @@ footer#rodape p {
     nav ul {
         list-style: none;
         background-color: #343538;
-        height: 100vh;
+        height: 40vh;
         position: fixed;
         top: 60px;
         right: -100%;
@@ -425,6 +453,7 @@ footer#rodape p {
     nav ul li {
         padding: 20px;
         border-bottom: 1px solid #a9a9a9;
+        font-size: 2em;
     }
     nav ul li a {
         text-decoration: none;
@@ -578,40 +607,37 @@ footer#rodape p {
     }
 
     /* RODAPE */
-    footer#rodape {
-        clear: both;
-        text-align: center;
-    }
-    footer#rodape p {
-        text-align: center;
-        text-indent: unset;
-    }
-    .icone {
-        margin: 0px auto;
-        padding: 10px;
-        height: 30px;
-    }
-    .rede {
-        display: inline-block;
-        width: 50px;
-        height: 50px;
-        -webkit-transition: all .5s ease-in;
-        border-radius: 50px;
-    }
-    .rede:hover {
-        cursor: pointer;
-        transform: translateY(-20px);
-        box-shadow: 4px 30px 16px 0px rgba(50, 50, 50, 0.45);    
-    }
-    .rede#facebook {
-        background-color: #2373a3;
-    }
-    .rede#instagran {
-        background-color: #3f729b;
-    }
-    .rede#youtube {
-        background-color: #b00;
-    }
+
+footer#rodape {
+    clear: both;
+    text-align: center;
+}
+.icone {
+    margin: 0px auto;
+    padding: 10px;
+    height: 50px;
+}
+.rede {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    -webkit-transition: all .5s ease-in;
+    border-radius: 50px;
+}
+.rede:hover {
+    cursor: pointer;
+    transform: translateY(-20px);
+    box-shadow: 4px 30px 16px 0px rgba(50, 50, 50, 0.45);    
+}
+.rede#facebook {
+    background-color: #2373a3;
+}
+.rede#instagran {
+    background-color: #b00;
+}
+.rede#youtube {
+    background-color: #fff;
+}
 }
 
 /* Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
@@ -623,7 +649,7 @@ footer#rodape p {
 
     /* CABEÇALHO */
     header {
-        height: 180px;
+        height: 200px;
     }
     #logo img {
         width: 190px;
@@ -638,10 +664,21 @@ footer#rodape p {
         color: blue;
     }
     header h2 {
-        font-size: 3em;
+        font-size: 4em;
         color: cornsilk;
         text-align: center;
         margin-bottom: 20px;
+
+    }
+    nav ul {
+        list-style: none;
+        background-color: #343538;
+        height: 50vh;
+        position: fixed;
+        top: 60px;
+        right: -100%;
+        width: 100%;
+        transition: all 0.5s;    
     }
 
     /* ESCOLAS */
