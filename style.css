@@ -47,7 +47,7 @@ body {
     bottom: 10px;
 }
 
-/* Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 /* Layout */
 .container {
     max-width: 720px;
@@ -94,8 +94,8 @@ nav label {
 }
 nav ul {
     list-style: none;
-    background-color: #343538;
-    height: 45vh;
+    background-color: #000;
+    height: 100vh;
     position: fixed;
     top: 60px;
     right: -100%;
@@ -159,16 +159,16 @@ table#tabelaspec caption span {
     font-size: 8px;
     margin-top: 10px;
 }
-figure#foto-legenda {
+#foto-legenda {
     position: relative;
     border: 8px solid white;
     box-shadow: 1px 1px 4px black;    
 }
-figure#foto-legenda img {
+#foto-legenda img {
     width: 100%;
     height: 100%;
 }
-figure#foto-legenda figcaption {
+#foto-legenda figcaption {
     opacity: 0;
     position: absolute;
     top: 1px;
@@ -180,7 +180,7 @@ figure#foto-legenda figcaption {
     box-sizing: border-box;
     transition: opacity 1s;
 }
-figure#foto-legenda:hover figcaption {
+#foto-legenda:hover figcaption {
     opacity: 1;
 }
 
@@ -188,14 +188,14 @@ figure#foto-legenda:hover figcaption {
 .caminho {
     max-width: 100%;
 }
-figure#piradentro {
+#piradentro {
     text-align: center;
     font-size: 30px;
     position: relative;
     border: 8px solid white;
     box-shadow: 1px 1px 4px black;    
 }
-figure#piradentro figcaption {
+#piradentro figcaption {
     opacity: 0;
     position: absolute;
     top: 1px;
@@ -207,17 +207,17 @@ figure#piradentro figcaption {
     box-sizing: border-box;
     transition: opacity 1s;
 }
-figure#piradentro:hover figcaption {
+#piradentro:hover figcaption {
     opacity: 1;
 }
-figure#pirario {
+#pirario {
     text-align: center;
     font-size: 30px;
     position: relative;
     border: 8px solid white;
     box-shadow: 1px 1px 4px black;    
 }
-figure#pirario figcaption {
+#pirario figcaption {
     opacity: 0;
     position: absolute;
     top: 1px;
@@ -229,17 +229,17 @@ figure#pirario figcaption {
     box-sizing: border-box;
     transition: opacity 1s;
 }
-figure#pirario:hover figcaption {
+#pirario:hover figcaption {
     opacity: 1;
 }
-figure#pirasjose {
+#pirasjose {
     text-align: center;
     font-size: 30px;
     position: relative;
     border: 8px solid white;
     box-shadow: 1px 1px 4px black;    
 }
-figure#pirasjose figcaption {
+#pirasjose figcaption {
     opacity: 0;
     position: absolute;
     top: 1px;
@@ -251,7 +251,7 @@ figure#pirasjose figcaption {
     box-sizing: border-box;
     transition: opacity 1s;
 }
-figure#pirasjose:hover figcaption {
+#pirasjose:hover figcaption {
     opacity: 1;
 }
 
@@ -344,7 +344,7 @@ footer#rodape {
     nav ul {
         list-style: none;
         background-color: #343538;
-        height: 55vh;
+        height: 100vh;
         position: fixed;
         top: 60px;
         right: -100%;
@@ -453,7 +453,7 @@ footer#rodape {
     nav ul {
         list-style: none;
         background-color: #343538;
-        height: 40vh;
+        height: 100vh;
         position: fixed;
         top: 60px;
         right: -100%;
@@ -515,16 +515,16 @@ footer#rodape {
         font-size: 8px;
         margin-top: 10px;
     }
-    figure#foto-legenda {
+    #foto-legenda {
         position: relative;
         border: 8px solid white;
         box-shadow: 1px 1px 4px black;    
     }
-    figure#foto-legenda img {
+    #foto-legenda img {
         width: 100%;
         height: 100%;
     }
-    figure#foto-legenda figcaption {
+    #foto-legenda figcaption {
         opacity: 0;
         position: absolute;
         top: 1px;
@@ -536,7 +536,7 @@ footer#rodape {
         box-sizing: border-box;
         transition: opacity 1s;
     }
-    figure#foto-legenda:hover figcaption {
+    #foto-legenda:hover figcaption {
         opacity: 1;
     }
 
@@ -544,14 +544,14 @@ footer#rodape {
     .caminho {
         max-width: 100%;
     }
-    figure#piradentro {
+    #piradentro {
         text-align: center;
         font-size: 30px;
         position: relative;
         border: 8px solid white;
         box-shadow: 1px 1px 4px black;    
     }
-    figure#piradentro figcaption {
+    #piradentro figcaption {
         opacity: 0;
         position: absolute;
         top: 1px;
@@ -563,17 +563,17 @@ footer#rodape {
         box-sizing: border-box;
         transition: opacity 1s;
     }
-    figure#piradentro:hover figcaption {
+    #piradentro:hover figcaption {
         opacity: 1;
     }
-    figure#pirario {
+    #pirario {
         text-align: center;
         font-size: 30px;
         position: relative;
         border: 8px solid white;
         box-shadow: 1px 1px 4px black;    
     }
-    figure#pirario figcaption {
+    #pirario figcaption {
         opacity: 0;
         position: absolute;
         top: 1px;
@@ -585,17 +585,17 @@ footer#rodape {
         box-sizing: border-box;
         transition: opacity 1s;
     }
-    figure#pirario:hover figcaption {
+    #pirario:hover figcaption {
         opacity: 1;
     }
-    figure#pirasjose {
+    #pirasjose {
         text-align: center;
         font-size: 30px;
         position: relative;
         border: 8px solid white;
         box-shadow: 1px 1px 4px black;    
     }
-    figure#pirasjose figcaption {
+    #pirasjose figcaption {
         opacity: 0;
         position: absolute;
         top: 1px;
@@ -607,7 +607,7 @@ footer#rodape {
         box-sizing: border-box;
         transition: opacity 1s;
     }
-    figure#pirasjose:hover figcaption {
+    #pirasjose:hover figcaption {
         opacity: 1;
     }
 
@@ -693,7 +693,7 @@ footer#rodape {
     nav ul {
         list-style: none;
         background-color: #343538;
-        height: 50vh;
+        height: 100vh;
         position: fixed;
         top: 60px;
         right: -100%;
@@ -820,16 +820,16 @@ footer#rodape {
         font-size: 8px;
         margin-top: 10px;
     }
-    figure#foto-legenda {
+    #foto-legenda {
         position: relative;
         border: 8px solid white;
         box-shadow: 1px 1px 4px black;    
     }
-    figure#foto-legenda img {
+    #foto-legenda img {
         width: 100%;
         height: 100%;
     }
-    figure#foto-legenda figcaption {
+    #foto-legenda figcaption {
         opacity: 0;
         position: absolute;
         top: 1px;
@@ -841,7 +841,7 @@ footer#rodape {
         box-sizing: border-box;
         transition: opacity 1s;
     }
-    figure#foto-legenda:hover figcaption {
+    #foto-legenda:hover figcaption {
         opacity: 1;
     }
 
@@ -849,14 +849,14 @@ footer#rodape {
     .caminho {
         max-width: 100%;
     }
-    figure#piradentro {
+    #piradentro {
         text-align: center;
         font-size: 2vw;
         position: relative;
         border: 8px solid white;
         box-shadow: 1px 1px 4px black;    
     }
-    figure#piradentro figcaption {
+    #piradentro figcaption {
         opacity: 0;
         position: absolute;
         top: 1px;
@@ -868,17 +868,17 @@ footer#rodape {
         box-sizing: border-box;
         transition: opacity 1s;
     }
-    figure#piradentro:hover figcaption {
+    #piradentro:hover figcaption {
         opacity: 1;
     }
-    figure#pirario {
+    #pirario {
         text-align: center;
         font-size: 30px;
         position: relative;
         border: 8px solid white;
         box-shadow: 1px 1px 4px black;    
     }
-    figure#pirario figcaption {
+    #pirario figcaption {
         opacity: 0;
         position: absolute;
         top: 1px;
@@ -890,17 +890,17 @@ footer#rodape {
         box-sizing: border-box;
         transition: opacity 1s;
     }
-    figure#pirario:hover figcaption {
+    #pirario:hover figcaption {
         opacity: 1;
     }
-    figure#pirasjose {
+    #pirasjose {
         text-align: center;
         font-size: 30px;
         position: relative;
         border: 8px solid white;
         box-shadow: 1px 1px 4px black;    
     }
-    figure#pirasjose figcaption {
+    #pirasjose figcaption {
         opacity: 0;
         position: absolute;
         top: 1px;
@@ -912,7 +912,7 @@ footer#rodape {
         box-sizing: border-box;
         transition: opacity 1s;
     }
-    figure#pirasjose:hover figcaption {
+    #pirasjose:hover figcaption {
         opacity: 1;
     }
 
