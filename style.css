@@ -27,14 +27,6 @@ body {
     background-attachment: fixed;
 }
 
-section h1 {
-    font-family: var(--fontescolha);
-    color: rgb(252, 252, 252);
-    font-size: 3vw;
-    text-align: center;
-    font-weight: unset;
-}
-
 /* Layout */
 
 .container {
@@ -59,6 +51,13 @@ section h1 {
 /* Layout */
 .container {
     max-width: 720px;
+}
+section h1 {
+    font-family: var(--fontescolha);
+    color: rgb(252, 252, 252);
+    font-size: 5.5vw;
+    text-align: center;
+    font-weight: unset;
 }
 
 /* CABEÇALHO */
@@ -272,15 +271,15 @@ footer#rodape {
 }
 .icone {
     margin: 0px auto;
-    padding: 10px;
-    height: 30px;
+    padding: 3px;
+    height: 45px;
 }
 .rede {
     display: inline-block;
     width: 50px;
     height: 50px;
     -webkit-transition: all .5s ease-in;
-    border-radius: 50px;
+    border-radius: 10px;
 }
 .rede:hover {
     cursor: pointer;
@@ -291,22 +290,29 @@ footer#rodape {
     background-color: #2373a3;
 }
 .rede#instagran {
-    background-color: #b00;
+    background-color: #e91212;
 }
 .rede#youtube {
     background-color: #fff;
 }
-
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 576px) {
     /* Layout */
     .container {
         max-width: 540px;
     }
+    section h1 {
+        font-family: var(--fontescolha);
+        color: rgb(252, 252, 252);
+        font-size: 6vw;
+        text-align: center;
+        font-weight: unset;
+    }
 
     /* CABEÇALHO */
     header {
         height: 170px;
+        margin-top: 10px;
     }
     #logo img {
         width: 20vw;
@@ -326,7 +332,7 @@ footer#rodape {
         text-align: center;
     }
     #whatsapp {
-        width: 10vw;
+        width: 8vw;
     }
     #check {
         display: none;
@@ -367,37 +373,36 @@ footer#rodape {
     }
     /* RODAPE */
 
-footer#rodape {
-    clear: both;
-    text-align: center;
-}
-.icone {
-    margin: 0px auto;
-    padding: 10px;
-    height: 30px;
-}
-.rede {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    -webkit-transition: all .5s ease-in;
-    border-radius: 50px;
-}
-.rede:hover {
-    cursor: pointer;
-    transform: translateY(-20px);
-    box-shadow: 4px 30px 16px 0px rgba(50, 50, 50, 0.45);    
-}
-.rede#facebook {
-    background-color: #2373a3;
-}
-.rede#instagran {
-    background-color: #b00;
-}
-.rede#youtube {
-    background-color: #fff;
-}
-}
+    footer#rodape {
+        clear: both;
+        text-align: center;
+    }
+    .icone {
+        margin: 0px auto;
+        padding: 3px;
+        height: 45px;
+    }
+    .rede {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        -webkit-transition: all .5s ease-in;
+        border-radius: 10px;
+    }
+    .rede:hover {
+        cursor: pointer;
+        transform: translateY(-20px);
+        box-shadow: 4px 30px 16px 0px rgba(50, 50, 50, 0.45);    
+    }
+    .rede#facebook {
+        background-color: #2373a3;
+    }
+    .rede#instagran {
+        background-color: #e91212;
+    }
+    .rede#youtube {
+        background-color: #fff;
+    }
 
 /* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 768px) {
@@ -405,10 +410,18 @@ footer#rodape {
     .container {
         max-width: 720px;
     }
+    section h1 {
+        font-family: var(--fontescolha);
+        color: rgb(252, 252, 252);
+        font-size: 6vw;
+        text-align: center;
+        font-weight: unset;
+    }
 
     /* CABEÇALHO */
     header {
         height: 150px;
+        margin-top: 10px;
     }
     #logo img {
         width: 160px;
@@ -417,13 +430,13 @@ footer#rodape {
     }
     header h1 {
         font-family: 'Lakki Reddy', cursive;
-        font-size: 3em;
+        font-size: 3.5em;
         letter-spacing: 0.1em;
         margin-top: 10px;
         color: blue;
     }
     header h2 {
-        font-size: 3em;
+        font-size: 2.5em;
         color: cornsilk;
         text-align: center;
     }
@@ -608,37 +621,36 @@ footer#rodape {
 
     /* RODAPE */
 
-footer#rodape {
-    clear: both;
-    text-align: center;
-}
-.icone {
-    margin: 0px auto;
-    padding: 10px;
-    height: 50px;
-}
-.rede {
-    display: inline-block;
-    width: 70px;
-    height: 70px;
-    -webkit-transition: all .5s ease-in;
-    border-radius: 50px;
-}
-.rede:hover {
-    cursor: pointer;
-    transform: translateY(-20px);
-    box-shadow: 4px 30px 16px 0px rgba(50, 50, 50, 0.45);    
-}
-.rede#facebook {
-    background-color: #2373a3;
-}
-.rede#instagran {
-    background-color: #b00;
-}
-.rede#youtube {
-    background-color: #fff;
-}
-}
+    footer#rodape {
+        clear: both;
+        text-align: center;
+    }
+    .icone {
+        margin: 0px auto;
+        padding: 3px;
+        height: 45px;
+    }
+    .rede {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        -webkit-transition: all .5s ease-in;
+        border-radius: 10px;
+    }
+    .rede:hover {
+        cursor: pointer;
+        transform: translateY(-20px);
+        box-shadow: 4px 30px 16px 0px rgba(50, 50, 50, 0.45);    
+    }
+    .rede#facebook {
+        background-color: #2373a3;
+    }
+    .rede#instagran {
+        background-color: #e91212;
+    }
+    .rede#youtube {
+        background-color: #fff;
+    }
 
 /* Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 992px) {
@@ -646,10 +658,18 @@ footer#rodape {
     .container {
         max-width: 960px;
     }
+    section h1 {
+        font-family: var(--fontescolha);
+        color: rgb(252, 252, 252);
+        font-size: 4vw;
+        text-align: center;
+        font-weight: unset;
+    }
 
     /* CABEÇALHO */
     header {
         height: 200px;
+        margin-top: 10px;
     }
     #logo img {
         width: 190px;
@@ -664,7 +684,7 @@ footer#rodape {
         color: blue;
     }
     header h2 {
-        font-size: 4em;
+        font-size: 3em;
         color: cornsilk;
         text-align: center;
         margin-bottom: 20px;
@@ -696,6 +716,13 @@ footer#rodape {
     .container {
         max-width: 1140px;
     }
+    section h1 {
+        font-family: var(--fontescolha);
+        color: rgb(252, 252, 252);
+        font-size: 3vw;
+        text-align: center;
+        font-weight: unset;
+    }
 
     /* CABEÇALHO */
     header {
@@ -704,7 +731,7 @@ footer#rodape {
     }
     header h1 {
         font-family: 'Lakki Reddy', cursive;
-        font-size: 2.7em;
+        font-size: 3em;
         padding-left: 38px;
         padding-right: 0px;
         letter-spacing: 0.2em;
@@ -902,21 +929,17 @@ footer#rodape {
         clear: both;
         text-align: center;
     }
-    footer#rodape p {
-        text-align: center;
-        text-indent: unset;
-    }
     .icone {
         margin: 0px auto;
-        padding: 10px;
-        height: 30px;
+        padding: 3px;
+        height: 45px;
     }
     .rede {
         display: inline-block;
         width: 50px;
         height: 50px;
         -webkit-transition: all .5s ease-in;
-        border-radius: 50px;
+        border-radius: 10px;
     }
     .rede:hover {
         cursor: pointer;
@@ -927,9 +950,9 @@ footer#rodape {
         background-color: #2373a3;
     }
     .rede#instagran {
-        background-color: #3f729b;
+        background-color: #e91212;
     }
     .rede#youtube {
-        background-color: #b00;
+        background-color: #fff;
     }
 }
