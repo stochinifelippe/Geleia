@@ -296,7 +296,7 @@ footer#rodape {
     background-color: #fff;
 }
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-@media (min-width: 576px) {
+@media (min-width: 667px) {
     /* Layout */
     .container {
         max-width: 540px;
